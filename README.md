@@ -1,6 +1,7 @@
 # hagrid
 
 ## Setting up Frontend app
+
 To setup the frontend running the following command
   1: cd frontend
   2: npm install
@@ -14,3 +15,8 @@ To start stub service for backend running the following command
   2: npm run stub
 
 To close the stub server, hit Ctrl-C
+
+## Setting up Backend APIs
+
+> See this README https://github.com/yothinix/hagrid/tree/main/backend/hagrid
+
