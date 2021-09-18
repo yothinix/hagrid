@@ -9,3 +9,10 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+alias Hagrid.Repo
+alias Hagrid.Habit.Category
+
+# Adding categories
+Repo.insert!(%Category{name: "Relaxing"})
+Repo.insert!(%Category{name: "Learning"})
