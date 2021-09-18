@@ -8,6 +8,7 @@ defmodule HagridWeb.Router do
   scope "/api", HagridWeb do
     pipe_through :api
     get "/events", EventController, :list
+    resources "/categories", CategoryController, except: [:new, :edit]
   end
 
   # Enables LiveDashboard only for development
