@@ -10,19 +10,9 @@
 </script>
 
 <script lang="ts">
-  type Habit = {
-    id: number,
-    name: string,
-    category: string
-  }
+  import type { Event } from '$lib/types';
 
-  type Event = {
-    id: number;
-    habit: Habit;
-    created_at: string;
-  }
-
-  export let events: Event;
+  export let events: Event[];
 </script>
 
 <div class="my-4">
