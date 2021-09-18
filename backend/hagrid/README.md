@@ -1,14 +1,31 @@
 # Hagrid
 
-To start your Phoenix server:
+## Start Phoenix server
 
   * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
   * Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Running database migration
+
+```zsh
+$ mix ecto.migrate
+```
+
+## Seed the data to your local database
+
+```zsh
+$ mix run priv/repo/seeds.exs
+```
+
+## See available APIs or routes
+
+```zsh
+$ mix phx.routes
+```
+
+
 
 ## Learn more
 
